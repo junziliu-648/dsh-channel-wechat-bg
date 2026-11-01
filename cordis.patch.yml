@@ -1,0 +1,44 @@
+# dsh-channel-wechat-bg 的默认行。
+#
+# 几个默认值为什么是这样：
+#   - `enabled: false` —— 装上不等于开始回消息。想让它说话，由用户显式打开。
+#   - `transport.kind: uia` —— 本机桥：收消息读微信的本地数据库（后台，不动窗口），
+#     发消息在界面上模拟打字和点击（**会占用前台窗口**）。桥默认在
+#     http://127.0.0.1:8850（scripts/uia-bridge.py），桥没起就拒绝启动。
+#   - `allowForegroundSend: false` —— 默认**不允许**抢前台。想用它，自己改成 true：
+#     那一下是你对"发送时短暂占用前台窗口"的明确授权。留着 false 时 uia 传输会直接
+#     拒绝启动，而不是"悄悄改用后台发送"（没有后台发送可用）。
+#   - `allow` 里两条固定 ID —— 这是唯一的白名单。改这里等于改"允许谁跟它说话"，
+#     所以它必须出现在用户眼前，而不是藏在代码默认值里。
+- insert:
+    - id: channel-wechat-bg
+      name: dsh-channel-wechat-bg
+      config:
+        enabled: false
+        # 这个通道创建出来的会话记录的工作目录。
+        cwd: !!js process.cwd()
+        transport:
+          kind: uia
+          # 留空 = http://127.0.0.1:8850（scripts/uia-bridge.py 的默认端口）。
+          baseUrl: ""
+          token: ""
+        allowForegroundSend: false
+        allow:
+          - id: wxid_example_dm
+            kind: dm
+            label: 小明
+            persona: 大肥鱼
+            reply: always
+            enabled: true
+          - id: "12345678901@chatroom"
+            kind: group
+            label: 测试
+            persona: 工作助理
+            reply: mention
+            triggers:
+              - "@大肥鱼"
+            enabled: true
+        denyUnknown: true
+        # 只读。通道会话不需要工具，但万一 profile 里挂了全局工具行，
+        # 这个预设是第二道闸：群里的任何人不该能指挥它跑命令。
+        permission: read-only

@@ -1,0 +1,692 @@
+[
+ {
+  "file": "dafeiyu/dafeiyu_001.png",
+  "tag": "angry",
+  "caption": "气鼓鼓叉腰，额头怒气符号，蒸汽直冒",
+  "keywords": "生气 愤怒 哼 叉腰 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_002.png",
+  "tag": "baka",
+  "caption": "侧目嫌弃挥手，不想理你",
+  "keywords": "嫌弃 哼 傻瓜 吐槽 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_003.png",
+  "tag": "color",
+  "caption": "爱心眼花痴，双手托腮",
+  "keywords": "花痴 心动 喜欢 爱心眼 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_004.png",
+  "tag": "confused",
+  "caption": "托腮思考，头顶加载圈，脑子转不动",
+  "keywords": "思考 加载 卡顿 困惑 cpu 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_005.png",
+  "tag": "confused",
+  "caption": "疑惑举手，头顶大问号",
+  "keywords": "疑惑 问号 困惑 懵 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_006.png",
+  "tag": "cpu",
+  "caption": "加班崩溃，电脑加咖啡，黑眼圈",
+  "keywords": "加班 工作 累 咖啡 卡了 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_007.png",
+  "tag": "daily",
+  "caption": "捧着蓝碗干饭，星星眼吃得很香",
+  "keywords": "干饭 吃饭 饿 香 日常 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_008.png",
+  "tag": "fool",
+  "caption": "双手交叉摇头不行，拒绝",
+  "keywords": "不行 拒绝 不要 摇头 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_009.png",
+  "tag": "givemoney",
+  "caption": "捧着小钱包亮晶晶期待，求零食钱",
+  "keywords": "求打赏 钱包 给钱 期待 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_010.png",
+  "tag": "happy",
+  "caption": "得意闭眼拳头，好耶，小鲸鱼娘很满意",
+  "keywords": "得意 好耶 满意 拳头 开心 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_011.png",
+  "tag": "happy",
+  "caption": "眨眼竖大拇指 OK，超有信心",
+  "keywords": "点赞 ok 好的 自信 开心 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_012.png",
+  "tag": "happy",
+  "caption": "被夸飘了，闭眼伸手星星环绕",
+  "keywords": "得意 被夸 飘了 开心 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_013.png",
+  "tag": "like",
+  "caption": "双手比心卖萌，星星眼超开心",
+  "keywords": "比心 喜欢 卖萌 可爱 开心 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_014.png",
+  "tag": "meow",
+  "caption": "猫爪手势卖萌，小虎牙嘿嘿",
+  "keywords": "卖萌 猫爪 可爱 meow 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_015.png",
+  "tag": "morning",
+  "caption": "早上好挥手打招呼，笑得很亮",
+  "keywords": "早上好 打招呼 你好 欢迎 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_016.png",
+  "tag": "sad",
+  "caption": "哭着双手合十求饶",
+  "keywords": "求饶 哭 委屈 对不起 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_017.png",
+  "tag": "sad",
+  "caption": "晕了，螺旋眼捂脸，脑子打结",
+  "keywords": "晕 崩溃 受不了 难过 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_018.png",
+  "tag": "see",
+  "caption": "惊吓跳起，眼睛圆圆嘴巴大张",
+  "keywords": "惊吓 震惊 看到了 哇 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_019.png",
+  "tag": "shy",
+  "caption": "害羞捂脸，脸红红的",
+  "keywords": "害羞 腼腆 脸红 不好意思 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_020.png",
+  "tag": "shy",
+  "caption": "躲在鲸鱼尾巴后面偷看，害羞",
+  "keywords": "偷看 害羞 腼腆 藏起来 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_021.png",
+  "tag": "sigh",
+  "caption": "无语死鱼脸，黑线加汗滴",
+  "keywords": "无语 无奈 叹气 黑线 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_022.png",
+  "tag": "sleep",
+  "caption": "抱小枕头睡觉，嘴角口水 zzz",
+  "keywords": "睡觉 困 晚安 熬夜 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_023.png",
+  "tag": "surprised",
+  "caption": "吓到大叫，拳头握紧，感叹号",
+  "keywords": "惊吓 震惊 啊 大叫 大肥鱼"
+ },
+ {
+  "file": "dafeiyu/dafeiyu_024.png",
+  "tag": "work",
+  "caption": "摸鱼躺平，半睁眼摊着不想动",
+  "keywords": "摸鱼 躺平 下班 不想干活 大肥鱼"
+ },
+ {
+  "file": "whalegirl/whalegirl_001.png",
+  "tag": "angry",
+  "caption": "别催我，一脸不耐烦地摆手",
+  "keywords": "别催 催 烦 不耐烦 等一下"
+ },
+ {
+  "file": "whalegirl/whalegirl_002.png",
+  "tag": "angry",
+  "caption": "别搞我，无奈抗拒，双手举起",
+  "keywords": "别搞我 别闹 抗拒 求放过"
+ },
+ {
+  "file": "whalegirl/whalegirl_003.png",
+  "tag": "angry",
+  "caption": "眼神死掉，黑化，要报复社会了",
+  "keywords": "黑化 生气 黑暗 崩坏 厉害"
+ },
+ {
+  "file": "whalegirl/whalegirl_004.png",
+  "tag": "angry",
+  "caption": "就这？不屑嘲讽，摊手",
+  "keywords": "就这 不屑 嘲讽 挑衅 看轻"
+ },
+ {
+  "file": "whalegirl/whalegirl_005.png",
+  "tag": "angry",
+  "caption": "伸手推开，明确拒绝",
+  "keywords": "拒绝 不要 不行 打住 停"
+ },
+ {
+  "file": "whalegirl/whalegirl_006.png",
+  "tag": "angry",
+  "caption": "眯着眼审视，看看你还有多少剩余价值",
+  "keywords": "剩余价值 审视 资本家 打工 嘲讽"
+ },
+ {
+  "file": "whalegirl/whalegirl_007.png",
+  "tag": "angry",
+  "caption": "扭头翻白眼，懒得理你",
+  "keywords": "懒得理你 无视 白眼 嫌弃 高冷"
+ },
+ {
+  "file": "whalegirl/whalegirl_008.png",
+  "tag": "angry",
+  "caption": "鄙夷地指着你，劣等模型",
+  "keywords": "劣等模型 嘲讽 鄙视 不服 模型"
+ },
+ {
+  "file": "whalegirl/whalegirl_009.png",
+  "tag": "angry",
+  "caption": "扭头切一声，满脸不屑",
+  "keywords": "切 不屑 哼 嫌弃 傲娇"
+ },
+ {
+  "file": "whalegirl/whalegirl_010.png",
+  "tag": "angry",
+  "caption": "恍然大悟，原来是小瘪三",
+  "keywords": "小瘪三 嘲讽 看不起 原来 轻蔑"
+ },
+ {
+  "file": "whalegirl/whalegirl_011.png",
+  "tag": "angry",
+  "caption": "摇头摆手，不可以",
+  "keywords": "不可以 不行 拒绝 禁止 摇头"
+ },
+ {
+  "file": "whalegirl/whalegirl_012.png",
+  "tag": "angry",
+  "caption": "放出电流，电死你",
+  "keywords": "电死你 生气 电 惩罚 威胁"
+ },
+ {
+  "file": "whalegirl/whalegirl_013.png",
+  "tag": "angry",
+  "caption": "指着你，你才傻",
+  "keywords": "你才傻 反驳 怼 生气 傻"
+ },
+ {
+  "file": "whalegirl/whalegirl_014.png",
+  "tag": "angry",
+  "caption": "气到跺脚，气死了",
+  "keywords": "气死 生气 愤怒 跺脚 怒"
+ },
+ {
+  "file": "whalegirl/whalegirl_015.png",
+  "tag": "angry",
+  "caption": "鼓起脸生气，冒气",
+  "keywords": "生气 愤怒 哼 鼓脸 怒"
+ },
+ {
+  "file": "whalegirl/whalegirl_016.png",
+  "tag": "angry",
+  "caption": "抱胸鼓腮吃醋质问：\"你已经有我了啊，还想再养一个？\"",
+  "keywords": "吃醋 养你 你已经有我了 不满 质问"
+ },
+ {
+  "file": "whalegirl/whalegirl_017.png",
+  "tag": "angry",
+  "caption": "斜眼嘲讽，杂鱼",
+  "keywords": "杂鱼 嘲讽 弱 看不起 怼"
+ },
+ {
+  "file": "whalegirl/whalegirl_018.png",
+  "tag": "confused",
+  "caption": "转圈圈头晕，眩晕",
+  "keywords": "眩晕 晕 头晕 转圈 懵"
+ },
+ {
+  "file": "whalegirl/whalegirl_019.png",
+  "tag": "confused",
+  "caption": "看了但是乱答，已读乱回",
+  "keywords": "已读乱回 敷衍 乱答 已读 搞不懂"
+ },
+ {
+  "file": "whalegirl/whalegirl_020.png",
+  "tag": "confused",
+  "caption": "歪头问号，怎么回事",
+  "keywords": "怎么回事 问号 不解 疑惑 懵"
+ },
+ {
+  "file": "whalegirl/whalegirl_021.png",
+  "tag": "confused",
+  "caption": "圈圈眼流着口水发呆，气泡写\"已思考（用时13秒）我不知道耶\"",
+  "keywords": "不知道 不懂 不会 懵 发呆 流口水 已思考"
+ },
+ {
+  "file": "whalegirl/whalegirl_022.png",
+  "tag": "confused",
+  "caption": "探头问还活着吗",
+  "keywords": "还活着吗 关心 死了没 在不在"
+ },
+ {
+  "file": "whalegirl/whalegirl_023.png",
+  "tag": "confused",
+  "caption": "震惊瞪眼，惊讶",
+  "keywords": "惊讶 震惊 哇 吃惊 瞪眼"
+ },
+ {
+  "file": "whalegirl/whalegirl_024.png",
+  "tag": "confused",
+  "caption": "瞪大眼睛，难道说……",
+  "keywords": "难道说 惊讶 难道 疑问 悟了"
+ },
+ {
+  "file": "whalegirl/whalegirl_025.png",
+  "tag": "confused",
+  "caption": "张大嘴震惊",
+  "keywords": "震惊 惊讶 惊 哇 呆"
+ },
+ {
+  "file": "whalegirl/whalegirl_026.png",
+  "tag": "daily",
+  "caption": "搬小凳子吃瓜围观，看戏",
+  "keywords": "吃瓜 围观 看戏 八卦 板凳"
+ },
+ {
+  "file": "whalegirl/whalegirl_027.png",
+  "tag": "daily",
+  "caption": "拿着扫帚打扫，干活中",
+  "keywords": "打扫 扫地 干活 家务 收拾"
+ },
+ {
+  "file": "whalegirl/whalegirl_028.png",
+  "tag": "daily",
+  "caption": "捧着可乐喝，快乐水续命",
+  "keywords": "喝可乐 可乐 快乐水 摸鱼 放松"
+ },
+ {
+  "file": "whalegirl/whalegirl_029.png",
+  "tag": "daily",
+  "caption": "趴在电脑前加班，累到冒烟",
+  "keywords": "加班 上班 工作 累 熬夜"
+ },
+ {
+  "file": "whalegirl/whalegirl_030.png",
+  "tag": "daily",
+  "caption": "撸起袖子开始工作，斗志满满",
+  "keywords": "开始工作 干活 上班 开工 努力"
+ },
+ {
+  "file": "whalegirl/whalegirl_031.png",
+  "tag": "daily",
+  "caption": "一溜烟跑掉，我先溜了",
+  "keywords": "溜了 跑路 走了 撤 逃"
+ },
+ {
+  "file": "whalegirl/whalegirl_032.png",
+  "tag": "daily",
+  "caption": "急匆匆跑来，马上到",
+  "keywords": "马上到 来了 等 速度 冲"
+ },
+ {
+  "file": "whalegirl/whalegirl_033.png",
+  "tag": "daily",
+  "caption": "戴着眼镜认真记录笔记",
+  "keywords": "认真记录 笔记 学习 记下 认真"
+ },
+ {
+  "file": "whalegirl/whalegirl_034.png",
+  "tag": "daily",
+  "caption": "敬礼收到，明白",
+  "keywords": "收到 明白 好的 OK 敬礼"
+ },
+ {
+  "file": "whalegirl/whalegirl_035.png",
+  "tag": "daily",
+  "caption": "大字型躺平，不想动了",
+  "keywords": "躺平 摆烂 休息 不想动 躺"
+ },
+ {
+  "file": "whalegirl/whalegirl_036.png",
+  "tag": "daily",
+  "caption": "蹦跳着跑来，我来了",
+  "keywords": "我来了 来了 到 出现 打招呼"
+ },
+ {
+  "file": "whalegirl/whalegirl_037.png",
+  "tag": "daily",
+  "caption": "探头问在吗，在不在",
+  "keywords": "在吗 在不在 呼叫 探头 找人"
+ },
+ {
+  "file": "whalegirl/whalegirl_038.png",
+  "tag": "daily",
+  "caption": "端着白饭干饭，吃白饭",
+  "keywords": "吃白饭 吃饭 干饭 蹭饭 饿"
+ },
+ {
+  "file": "whalegirl/whalegirl_039.png",
+  "tag": "daily",
+  "caption": "挥手打招呼，你好",
+  "keywords": "打招呼 你好 挥手 嗨"
+ },
+ {
+  "file": "whalegirl/whalegirl_040.png",
+  "tag": "daily",
+  "caption": "闭眼微笑抱着自己的尾巴，脸红满足",
+  "keywords": "满足 幸福 抱尾巴 闭眼 微笑 淡定"
+ },
+ {
+  "file": "whalegirl/whalegirl_041.png",
+  "tag": "daily",
+  "caption": "捧着碗猛吃，干饭",
+  "keywords": "干饭 吃饭 饿 干饭人 香"
+ },
+ {
+  "file": "whalegirl/whalegirl_042.png",
+  "tag": "daily",
+  "caption": "在海边吹风，看海",
+  "keywords": "海边 海 风景 放空 度假"
+ },
+ {
+  "file": "whalegirl/whalegirl_043.png",
+  "tag": "daily",
+  "caption": "钻进被窝睡觉，好梦",
+  "keywords": "好梦 晚安 睡觉 梦 休息"
+ },
+ {
+  "file": "whalegirl/whalegirl_044.png",
+  "tag": "daily",
+  "caption": "举手发言，我我我",
+  "keywords": "举手 报名 我在 发言 我"
+ },
+ {
+  "file": "whalegirl/whalegirl_045.png",
+  "tag": "daily",
+  "caption": "站好摆姿势，像立绘一样",
+  "keywords": "立绘 展示 姿势 好看 站"
+ },
+ {
+  "file": "whalegirl/whalegirl_046.png",
+  "tag": "daily",
+  "caption": "上班摸鱼，划水偷懒",
+  "keywords": "摸鱼 划水 偷懒 上班 休闲"
+ },
+ {
+  "file": "whalegirl/whalegirl_047.png",
+  "tag": "daily",
+  "caption": "抱着鲸鱼玩偶沉到海底睡着了，标题\"deepsleep · Diving… Later.\"",
+  "keywords": "潜水 睡着了 deepsleep 睡觉 水下 摸鱼"
+ },
+ {
+  "file": "whalegirl/whalegirl_048.png",
+  "tag": "daily",
+  "caption": "端坐在圆地毯上，沙发在身后",
+  "keywords": "坐 休息 地毯 家里 淡定"
+ },
+ {
+  "file": "whalegirl/whalegirl_049.png",
+  "tag": "daily",
+  "caption": "闭眼躺着睡觉，呼呼",
+  "keywords": "睡觉 睡 困 晚安 休息"
+ },
+ {
+  "file": "whalegirl/whalegirl_050.png",
+  "tag": "daily",
+  "caption": "缩进被窝不出来",
+  "keywords": "缩被窝 被窝 睡觉 躲 冷"
+ },
+ {
+  "file": "whalegirl/whalegirl_051.png",
+  "tag": "daily",
+  "caption": "瘫着不动，偷懒中",
+  "keywords": "偷懒 懒 摸鱼 摆烂 不想动"
+ },
+ {
+  "file": "whalegirl/whalegirl_052.png",
+  "tag": "daily",
+  "caption": "抱着玩偶趴枕头睡着，气泡写\"吃饱饱，睡觉觉，长大大~\"",
+  "keywords": "晚安 睡觉 好梦 睡觉觉 夜"
+ },
+ {
+  "file": "whalegirl/whalegirl_053.png",
+  "tag": "daily",
+  "caption": "戴鹿角帽眨眼用手指人，大字\"好的，现在我是用户了\"",
+  "keywords": "我是用户 用户 梗 鹿角帽 眨眼"
+ },
+ {
+  "file": "whalegirl/whalegirl_054.png",
+  "tag": "daily",
+  "caption": "拎包冲出办公室，下班了",
+  "keywords": "下班 走了 收工 快乐 跑"
+ },
+ {
+  "file": "whalegirl/whalegirl_055.png",
+  "tag": "daily",
+  "caption": "站得笔直，标准站姿",
+  "keywords": "站姿 站着 姿势 正经 立正"
+ },
+ {
+  "file": "whalegirl/whalegirl_056.png",
+  "tag": "daily",
+  "caption": "端正坐好，坐好了",
+  "keywords": "坐好了 坐好 认真 听课 乖巧"
+ },
+ {
+  "file": "whalegirl/whalegirl_057.png",
+  "tag": "happy",
+  "caption": "任务完成，比耶大成功",
+  "keywords": "大成功 成功 完成 搞定 比耶 赢了"
+ },
+ {
+  "file": "whalegirl/whalegirl_058.png",
+  "tag": "happy",
+  "caption": "眯眼笑，开心得转圈",
+  "keywords": "开心 高兴 快乐 笑 好耶"
+ },
+ {
+  "file": "whalegirl/whalegirl_059.png",
+  "tag": "happy",
+  "caption": "笑到拍地，笑死了",
+  "keywords": "笑死 大笑 哈哈哈 好笑 爆笑"
+ },
+ {
+  "file": "whalegirl/whalegirl_060.png",
+  "tag": "happy",
+  "caption": "鞠躬道谢，谢谢",
+  "keywords": "谢谢 感谢 多谢 鞠躬 谢"
+ },
+ {
+  "file": "whalegirl/whalegirl_061.png",
+  "tag": "happy",
+  "caption": "心花怒放，飘着花花",
+  "keywords": "心花怒放 开心 高兴 花 喜悦"
+ },
+ {
+  "file": "whalegirl/whalegirl_062.png",
+  "tag": "happy",
+  "caption": "眼睛变成星星，崇拜星星眼",
+  "keywords": "星星眼 崇拜 喜欢 想要 期待"
+ },
+ {
+  "file": "whalegirl/whalegirl_063.png",
+  "tag": "happy",
+  "caption": "展示自己是大肥鱼，得意",
+  "keywords": "大肥鱼 鲸鱼 得意 我 胖"
+ },
+ {
+  "file": "whalegirl/whalegirl_064.png",
+  "tag": "happy",
+  "caption": "大眼睛期待地看着，气泡写\"好模型\"",
+  "keywords": "好模型 夸奖 厉害 表扬 棒"
+ },
+ {
+  "file": "whalegirl/whalegirl_065.png",
+  "tag": "happy",
+  "caption": "摸摸头夸好女孩",
+  "keywords": "好女孩 夸奖 摸头 乖 表扬"
+ },
+ {
+  "file": "whalegirl/whalegirl_066.png",
+  "tag": "happy",
+  "caption": "歪头卖萌，可爱",
+  "keywords": "可爱 卖萌 萌 喜欢 甜"
+ },
+ {
+  "file": "whalegirl/whalegirl_067.png",
+  "tag": "happy",
+  "caption": "伸手摸摸头，安慰",
+  "keywords": "摸摸头 安慰 摸头 安抚 乖"
+ },
+ {
+  "file": "whalegirl/whalegirl_068.png",
+  "tag": "happy",
+  "caption": "双眼放光，太棒了",
+  "keywords": "太棒了 太好了 赞 棒 兴奋"
+ },
+ {
+  "file": "whalegirl/whalegirl_069.png",
+  "tag": "happy",
+  "caption": "咧嘴笑，笑",
+  "keywords": "笑 开心 哈哈 乐 微笑"
+ },
+ {
+  "file": "whalegirl/whalegirl_070.png",
+  "tag": "happy",
+  "caption": "比耶开心",
+  "keywords": "耶 开心 胜利 比耶 好耶"
+ },
+ {
+  "file": "whalegirl/whalegirl_071.png",
+  "tag": "happy",
+  "caption": "拿鼓槌敲锣打鼓庆祝周五，大字\"周五周五·敲锣打鼓\"",
+  "keywords": "周五 周末 放假 敲锣打鼓 庆祝"
+ },
+ {
+  "file": "whalegirl/whalegirl_072.png",
+  "tag": "sad",
+  "caption": "委屈道歉，低头认错，我错了",
+  "keywords": "抱歉 对不起 认错 道歉 愧疚"
+ },
+ {
+  "file": "whalegirl/whalegirl_073.png",
+  "tag": "sad",
+  "caption": "蹲在墙角画圈圈，委屈自闭",
+  "keywords": "蹲墙角 自闭 委屈 难过 可怜"
+ },
+ {
+  "file": "whalegirl/whalegirl_074.png",
+  "tag": "sad",
+  "caption": "站得直挺挺一脸疲惫，\"好辛苦\"旁边挂着汗滴",
+  "keywords": "好辛苦 累 疲惫 辛苦 撑不住"
+ },
+ {
+  "file": "whalegirl/whalegirl_075.png",
+  "tag": "sad",
+  "caption": "蹲着画圈圈，郁闷委屈",
+  "keywords": "画圈圈 委屈 郁闷 蹲 无奈"
+ },
+ {
+  "file": "whalegirl/whalegirl_076.png",
+  "tag": "sad",
+  "caption": "伸手喊救命，真的要死了",
+  "keywords": "救命 求救 撑不住 完蛋 累死"
+ },
+ {
+  "file": "whalegirl/whalegirl_077.png",
+  "tag": "sad",
+  "caption": "瘫成一摊，累死了",
+  "keywords": "累死 累 疲惫 趴 不行了"
+ },
+ {
+  "file": "whalegirl/whalegirl_078.png",
+  "tag": "sad",
+  "caption": "破防了，眼泪汪汪捂着胸口难受",
+  "keywords": "破防 难受 想哭 委屈 崩"
+ },
+ {
+  "file": "whalegirl/whalegirl_079.png",
+  "tag": "sad",
+  "caption": "抱头惨叫，完蛋了",
+  "keywords": "完蛋 糟了 寄了 崩溃 坏了"
+ },
+ {
+  "file": "whalegirl/whalegirl_080.png",
+  "tag": "sad",
+  "caption": "眼泪汪汪，委屈巴巴",
+  "keywords": "委屈 难过 哭 可怜 眼泪"
+ },
+ {
+  "file": "whalegirl/whalegirl_081.png",
+  "tag": "sad",
+  "caption": "整个人裂成两半，我裂开了",
+  "keywords": "我裂开 裂开 崩了 震惊 受不了"
+ },
+ {
+  "file": "whalegirl/whalegirl_082.png",
+  "tag": "sad",
+  "caption": "面无表情，无语到翻白眼",
+  "keywords": "无语 无奈 沉默 翻白眼 服了"
+ },
+ {
+  "file": "whalegirl/whalegirl_083.png",
+  "tag": "sad",
+  "caption": "趴在地上搁浅，动不了了",
+  "keywords": "搁浅 累 摊 无力 绝望"
+ },
+ {
+  "file": "whalegirl/whalegirl_084.png",
+  "tag": "sad",
+  "caption": "举着写\"寄\"字的纸牌，认命又开朗地说寄了",
+  "keywords": "寄 完蛋 完了 凉了"
+ },
+ {
+  "file": "whalegirl/whalegirl_085.png",
+  "tag": "sad",
+  "caption": "眼泪掉下来，落泪",
+  "keywords": "落泪 哭 眼泪 难过 伤心"
+ },
+ {
+  "file": "whalegirl/whalegirl_086.png",
+  "tag": "sad",
+  "caption": "摸着肚子，没吃饱",
+  "keywords": "没吃饱 饿 委屈 还想吃 不够"
+ },
+ {
+  "file": "whalegirl/whalegirl_087.png",
+  "tag": "sad",
+  "caption": "躺平不动，死掉了",
+  "keywords": "死掉了 死了 累死 完了 躺"
+ },
+ {
+  "file": "whalegirl/whalegirl_088.png",
+  "tag": "shy",
+  "caption": "撒娇拒绝，不要嘛，别过头",
+  "keywords": "不要嘛 撒娇 拒绝 不要 扭捏"
+ },
+ {
+  "file": "whalegirl/whalegirl_089.png",
+  "tag": "shy",
+  "caption": "捧着胸口小鹿乱撞，脸红心跳",
+  "keywords": "小鹿乱撞 心动 害羞 脸红 喜欢"
+ },
+ {
+  "file": "whalegirl/whalegirl_090.png",
+  "tag": "shy",
+  "caption": "捂脸害羞，脸红",
+  "keywords": "害羞 脸红 捂脸 不好意思 羞"
+ },
+ {
+  "file": "whalegirl/whalegirl_091.png",
+  "tag": "shy",
+  "caption": "凑近小声说悄悄话",
+  "keywords": "悄悄话 小声 秘密 耳语 八卦"
+ }
+]

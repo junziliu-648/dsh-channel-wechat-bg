@@ -1,0 +1,116 @@
+# dsh-channel-wechat-bg 的配置示例。
+#
+# 这份文件的每一行都可以直接抄进 profile 的 cordis.patch.yml。默认值全是
+# "关着的"：装上插件不等于开始回微信消息，得有人显式把 enabled 打开，
+# 并把 transport 指向一个真的能收发的桥。
+
+# 总开关。false 时插件什么都不做：不连接、不接收、不发送。
+# 想停下来的第一手段就是它 —— 比 SIGTERM 更明确，因为它连"启动"都不发生。
+enabled: false
+
+# 通道会话记录的工作目录。留空表示不记录（会话只存在内存里）。
+cwd: ""
+
+# 它在微信里的名字。只用于去掉回复开头可能出现的自称。
+botName: 大肥鱼
+
+transport:
+  # uia：本机前台桥（scripts/uia-bridge.py）。收消息读本地数据库（后台），
+  #      发消息在界面上模拟打字和点击（会占用前台窗口）。支持微信 4.x。
+  #      **必须同时把下面的 allowForegroundSend 打开**，否则拒绝启动。
+  # mock：只给测试用，不会真的发出去。
+  # pad：HTTP 协议服务（托管 Pad 协议），真正后台，但要花钱且有封号风险。
+  # wechatferry：本机注入，免费、真后台，但只支持微信 3.9.x，封号风险最高。
+  #              它需要先跑 scripts/wcf-bridge.py（前置条件见 TRANSPORT.md）。
+  kind: uia
+  # HTTP 端点地址。uia 留空 = http://127.0.0.1:8850；wechatferry 留空 =
+  # http://127.0.0.1:8849；pad 必填（例如 http://127.0.0.1:8848），空着会拒绝启动。
+  baseUrl: ""
+  # Bearer token。只写进请求头，不打进日志、不打进审计。
+  token: ""
+  # sdk.dll 路径。只用于 wechatferry 报错时指路，注入本身由桥做。
+  dllPath: ""
+  # 期望的微信版本。填了就必须是 3.9.x（填 4.x 直接拒绝启动）；留空则只信桥报的版本。
+  wechatVersion: ""
+
+# 允许"发送时占用前台窗口"。
+#
+# 这是 uia 传输的唯一开关，默认 false。false 时 uia 会拒绝启动，而不是悄悄
+# 换成别的发送方式 —— 没有别的发送方式，只有"不发"。
+#
+# 打开它意味着：发送的那一两秒，微信会被顶到最前面，键盘焦点被临时接管，
+# 内容是通过粘贴进输入框的。插件会先等你手停 2.5 秒（桥的 --idle-ms），
+# 发完把原来的前台窗口还回去。
+allowForegroundSend: false
+
+# 表情包：把回复里的 [表情: 描述] 换成本地图片发出去。
+# 留空 = 不发图，只把标记从正文里摘掉（新手先留空最省事）。
+# 填一个目录，并把图片按 lib/meme-map.json 里的 file 路径摆放，才会真的配图。
+memeDir: ""
+
+# 表情包频率：few 少 / normal 正常 / more 多 / crazy 疯狂。
+# 设置页里也能改；设置页存过之后以设置页为准。
+stickerRate: more
+
+# 白名单。这是唯一的"允许谁跟它说话"的定义。
+#
+# 规则写死在这里、用稳定的会话 ID 而不是昵称：昵称可以改，ID 不能，用昵称做
+# 白名单等于把门锁在门牌号上。
+#
+# 没有通配符，没有"先回再检查"，没有把未知会话当成私聊的兜底。
+allow:
+  # 私聊：小明。每条都回，但仍然去重、仍然节流。
+  - id: wxid_example_dm
+    kind: dm
+    label: 小明
+    persona: 大肥鱼
+    reply: always
+    enabled: true
+
+  # 群聊：测试。只有被 @ 或命中 triggers 才回。
+  - id: "12345678901@chatroom"
+    kind: group
+    label: 测试
+    persona: 工作助理
+    reply: mention
+    triggers:
+      - "@大肥鱼"
+    enabled: true
+
+# 必须是 true。本插件没有"放行未知会话"这条代码路径，写成 false 会直接拒绝启动
+# 而不是放宽 —— 一个能放宽的开关，迟早会被放宽。
+denyUnknown: true
+
+# 通道会话的权限预设。默认只读。
+# 群里任何人都不该能通过一句"帮我删一下那个文件"来执行命令。
+permission: read-only
+
+# 节流。数字来自 wechat-fish 里调过的值，不是拍脑袋：
+# 同一个会话 6 秒一条、一分钟最多 6 条，连发几条先合并成一轮再答。
+rateLimit:
+  perChatSec: 6
+  maxPerMinute: 6
+  debounceMs: 1200
+  # 单条回复的字符上限，超出截断（不拆成多条连发）。
+  maxReplyChars: 300
+
+audit:
+  # 留空则用 $DSH_HOME/wechat-bg-audit.jsonl。
+  path: ""
+  # 是否把消息正文写进审计。默认不写：正文和密钥一样，不该悄悄落盘。
+  logContent: false
+
+# 模型。两条都留空表示跟随 DSH 当前选择；只配一条会报错。
+provider: ""
+model: ""
+
+# 人设目录。留空用插件自带的 persona/。
+# 群聊会优先找 <persona>-group.md（比如 大肥鱼-group.md），找不到才退回原人设 + 群聊规矩。
+personaDir: ""
+
+# 每个会话的长期记忆目录。留空用 <DSH_HOME>/wechat-bg/memory/<chatId>.json。
+# 一个 chat 一个文件，记着聊过什么、对方什么样、有哪些约定，会注入到该 chat 的提示词里。
+memoryDir: ""
+
+# 等一轮回复的上限（毫秒）。超时按失败处理，不发半截话。
+replyTimeoutMs: 180000
